@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300|Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+
+/* Header */
+
+body, .btn, a, .slideCaption h3{font-weight:normal}
+
+.navbar-inverse{background: #273f87;border-color:#273f87}
+
+.btn-primary, .btn-quickview {background: #434356;border-color:#434356}
+a{color:#273f87}
+#Footer_menu{background:#273f87}
+ul#Footer_menu > li > a:hover{background:#434356}
+footer .col-sm-4 a:hover {color:#434356}
+#Footer_menu a{color:white}
+#Footer_menu a{font-family:"Lato", sans-serif}
+#cartButton .dropdown-toggle{background: #273f87;border-color: #273f87; font-weight:normal}
+/* Header End */
+
+
+@media (min-width: 768px) {
+.Horizontal_Nav_Menu > li {position:relative}
+.Horizontal_Nav_Menu > li:hover > ul {-webkit-column-count:1;column-count:1; -moz-column-count:1;width:300px;padding:0px;}
+.Horizontal_Nav_Menu > li > ul > li > a {font-size:15px;padding:10px;line-height:13px;}
+.Horizontal_Nav_Menu > li > ul > li{padding-bottom:0}
+.Horizontal_Nav_Menu > li > a, .Horizontal_Nav_Menu > li > p{font-family:"Oswald", sans-serif; font-size: 1.3em; text-transform:uppercase}
+
+}
+
+@media (min-width: 768px) {
+
+.brand a{width: 260px;height: 100px}
+
+}
+a:hover,
+a:focus,
+a:active,
+a.active {color:#273f87}
+
+.page-checkoutstep2 #btn-make-payment,
+.btn-quickview:hover,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary,
+.topbar .tablinks a:hover,
+.topbar .btn-default:hover {background:#6fab40;border-color:#6fab40;}
+
+::selection {background:#273f87 !important;color:white;}
+
+@media (max-width: 767px){
+
+.brand a{margin-top:10px; margin-bottom:10px}
+
+}
+
+.breadcrumb>.active {display:inline;}
+
+h1, h2, h3, h4, h5{font-family:Oswald, sans-serif}
+
+.product-image .img-thumbnail{max-height:80px}
+
+.homepageBanner img{width:100%; height:auto}
+
+.image-carousel .slide:before{background:transparent}
+.image-carousel .btn:empty{display:none}
+
+
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#t01 th {
+    color: grey;
+    background-color: white;
+    border-bottom: 3px solid #000059;
+    padding: 15px
+
+}
+
+table#t01  td {
+    padding: 15px;
+    border-bottom: 1px solid #000059;
+
+}
